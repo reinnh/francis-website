@@ -3,11 +3,13 @@ body{
 }
 .wrapper{
     position: relative;
+    background-color: rgba(241, 241, 241, 0.842);
 }
 .whatsapp-handle{
     position: fixed;
     bottom: 100px;
     left: 0;
+    z-index: 10000000;
 
 }
 .navbar-toggler:focus{
@@ -124,6 +126,10 @@ a{
     border-style: none;
     background-color: #f8f9fa;;
 }
-
-
-
+.re-pic{
+    height: 400px;
+    width: 350px;
+}
+.re-pic img{
+    height: 100%;
+}
